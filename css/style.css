@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+/* #wrap{} */
+#header{
+    width: 100%;
+    height: 100px;
+}
+.head_inner{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f1f1f1; */
+}
+
+.logo{
+    width: 300px;
+    height: 100px;    
+}
+
+.h_top{
+    margin-left: 730px;
+    padding: 10px 0 0 0;
+    
+}
+.h_top li{
+    float: left;
+    /* border: 1px solid red; */
+}
+.h_top li a{
+    display: block;
+    padding: 0 5px; 
+}
+.h_top li a:hover{
+    color: salmon;
+}
+
+
+/* .nav{} */
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px 0px 0px 60px;
+    /* border: 1px solid salmon */
+}
+.main > li{
+    position: relative;
+    /* border: 1px solid salmon */
+
+}
+.main > li > a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+.main > li:hover > a{
+    color: salmon;
+    border-bottom: 4px solid salmon
+}
+
+
+.sub{
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 50px;
+    z-index: 100;
+    /* border: 1px solid salmon; */
+}
+.sub_bg{
+    /* ??? */
+    width: 1920px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 90;
+    /* border: 1px solid teal; */
+    background-color: rgba(233, 198, 168, 0.336);
+}
+/* .sub li{} */
+.sub li a{
+    display: block;
+    width: 100%;
+    height: 23px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 15px;
+    /* border: 1px solid salmon; */
+}
+.sub li a:hover{
+    color: salmon;
+}
+
+
+/* [#contents 영역] */
+/* 슬라이드이미지 영역 */
+#contents{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+     /* :컨트롤러 버튼에 대한 기준점임. */
+}
+
+.view{
+    width: 1920px;
+    /* 가로너비 전체 다 썼음 */
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    /* :move 의 기준점임. */
+
+}
+.move{
+    width: calc(1920px * 4);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.move li{
+    float: left;
+    width: 1920px;
+    height: 600px;
+}
+/* .move li a{} */
+/* .move li a img{} */
+
+.control{
+    position: absolute;
+    /* 부모:view */
+    width: 100%;
+    top: 11%;
+    transform: translateY(-40%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.control button{
+    width: 52px;
+    height: 52px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+.control button.prev{
+    background: url(../img/prev_button.png) no-repeat;}
+.control button.next{
+    background: url(../img/next_button.png) no-repeat;}
+
+
+.intro{
+    display: flex;
+    justify-content: center
+}
+.intro li{
+    /* float: left; */
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+.intro li a{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro li a img{
+    display: block;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+.intro li a img:hover{
+    transform: scale(1.1);
+}
+
+.intro li p{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    /* border: 1px solid salmon; */
+    margin-top: 20px;
+}
+
+
+/* 동영상 영역 */
+.videohere{
+    margin-top: 100px;
+}
+
+
+/* 예약영역 */
+.reservation{
+    width: 1200px;
+    margin: 100px auto;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(105, 93, 80);
+    margin-bottom: 70px;
+}
+
+.reser_img{
+    width: 387px;
+    height: 375px;
+    float: left;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.reser_img img{
+    /* width: 100%; */
+    height: 100%;    
+}
+
+.formbox{
+    float: right;
+    width: 792px;
+    height: 375px;
+    background-color: #ece2e2;
+    /* border: 1px solid red; */
+    padding: 30px 200px;
+    margin-bottom: 10px;
+}
+.formbox label{
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+    /* color: rgb(105, 93, 80); */
+    color: #fff;
+    background-color: rgb(245, 196, 191);
+    /* border: 1px solid saddlebrown; */
+    /* float: left; */
+    margin-bottom: 5px;
+}
+
+.r_name{
+    display: flex;
+}
+.r_name input{
+    width: 260px;
+    height: 20px;
+}
+
+.r_phone{
+    display: flex;
+}
+.r_phone input{
+    width: 260px;
+    height: 20px;    
+}
+.r_email{
+    display: flex;
+}
+.r_email input{
+    width: 260px;
+    height: 20px;
+}
+.r_ridio{
+    display: flex;
+}
+.r_ridio input{
+    margin-left: 30px;
+}
+
+.r_send_btn input{
+    display: block;
+    background-color: salmon;
+    border: none;
+    width: 270px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px auto;
+    transition: all 0.5s;
+}
+.r_send_btn input:hover{
+    background-color: rgb(143, 92, 86);
+}
+
+
+/* 베스트리스트 영역 */
+.best{
+    width: 1920px;
+    /* 전체위드값 1920으로 써야한다고 하심 */
+    /* width: 1200px; */
+    height: 400px;
+    margin: 0 auto;
+}
+.best_list{
+    /* 사진크기 1000px*1400px */
+    /* width: 2700px; */
+    /* width값을 사진을 합친 전체 값으로 정하지 않음!! */
+    /* 화면 크기 자체를 100%로 보고 작업(..????? 기억이 안남ㅠㅠ 뭐라 설명해주셨었는데..w2700 쓴거 보고..) */
+    /* w:300px * 9장 = w2700px */
+    height: 340px;
+    overflow: hidden;
+    /* transform: scale(1.1); */
+}
+.best_list .slick-slide{
+    /* height: 100%; */
+    width: 300px;
+}
+.best_list .slick-slide a{
+    display: block;
+    width: 300px;
+}
+.best_list .slick-slide a img{
+    width: 100%;
+}
+.best_list .slick-arrow{}
+
+
+
+
+
+
+
+

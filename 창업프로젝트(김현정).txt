@@ -1,0 +1,50 @@
+
+2024년 1월 9일 ~ 
+
+ㅇ 창업사이트
+   - 카페: 커피, 건강주스, 쿠키, 베이커리, 샌드위치, 과일요거트
+   - 이름: O'hoo 오후
+
+   - 꽃집: 기념일, 웨딩부케, 주문제작, 클래스
+   - 이름: OroraFlawer
+   - 슬라이드이미지: 1)소그룹 오프라인 클래스 오픈!
+		  2)웨딩부케 주문도 오로라에서! 
+		  3)오로라에서 나만의 반려식물 만나보기
+		  4)부모님을 위한 용돈플라워 박스, 오로라와 함께 준비해보세요!
+   - 동영상: 꽃꽂이하는 모습(손클로즈업), 오로라 로고 넣고 클로징 하기.
+   - 메뉴: 기념일, 주문제작, 플라워클래스, 브랜드소개, 고객센터
+
+
+
+ㅇ 사전조사
+ㅇ 장소
+ㅇ 로고 & 상호 (+파비콘)
+ㅇ 스타일가이드 (글꼴, 주조 보조색, 로고종류)
+
+[디자인]
+포토샵, 일러스트, 피그마 중
+PC디자인(웹) 모바일디자인(앱)
+
+[코딩]
+- 동영상
+- 팝업(모달/레이어)
+- 메뉴,
+- 이미지슬라이드, 풀페이지
+- PC 모바일 반응형 코딩 구현
+
+
+
+[pc]
+이너1200
+메인이미지: 건강주스, 비건쿠키, 샌드위치, 요거트출시!
+
+[영상]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rm4l8ld3AHI?si=iDqobD9GjMO5TLcR&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+12월20일: 슬릭
+
+
+
+
+
+
