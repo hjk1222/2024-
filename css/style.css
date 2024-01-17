@@ -175,6 +175,7 @@
 }
 
 .intro li a img{
+    /* 사진:284*284 */
     display: block;
     margin: 0 auto;
     transition: all 0.5s;
@@ -308,11 +309,12 @@
     /* 사진크기 1000px*1400px */
     /* width: 2700px; */
     /* width값을 사진을 합친 전체 값으로 정하지 않음!! */
-    /* 화면 크기 자체를 100%로 보고 작업(..????? 기억이 안남ㅠㅠ 뭐라 설명해주셨었는데..w2700 쓴거 보고..) */
+    /* 슬릭은.. 화면 크기 자체를 100%로 보고 작업(..????? 기억이 안남ㅠㅠ 뭐라 설명해주셨었는데..w2700 쓴거 보고..) */
     /* w:300px * 9장 = w2700px */
     height: 340px;
     overflow: hidden;
     /* transform: scale(1.1); */
+    position: relative;
 }
 .best_list .slick-slide{
     /* height: 100%; */
@@ -325,7 +327,108 @@
 .best_list .slick-slide a img{
     width: 100%;
 }
-.best_list .slick-arrow{}
+.best_list .slick-arrow{
+    position: absolute;
+    top: 50%;
+    /* left: 440px; */
+    transform: translateY(-50%);
+    width: 45px;  height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-image: url(../img/slick_arrow.png);
+    /* 버튼그림 크기: width: 28px;  height: 27px; */
+    
+    /* ??? 왜 화살표가 한 개만 나타나지!!!?? */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-indent: -9999px;
+    z-index: 200;
+    cursor: pointer;
+}
+.best_list .slick-arrow.slick-prev{
+    left:calc(50% - 200px)
+}
+.best_list .slick-arrow.slick-next{
+    right: calc(50% -200)
+    background-position: right center;
+}
+
+
+.map{
+    margin-top: 200px;
+}
+
+
+/* FOOTER 영역 */
+#footer{
+    width: 1920px;
+    height: 250px;
+    background-color: #4A433E;
+}
+.foot_inner{
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+.f_sns{
+    display: flex;
+    margin-top: 50px;
+    /* 로고 높낮이 통일??? */
+    /* 그림사이즈를 전부 통일시켜야 함~!! */
+}
+
+.f_sns li{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    /* border: 1px solid salmon; */
+}
+.f_sns li a{
+    display: block;
+}
+.f_sns li a img{
+    vertical-align: bottom;
+    
+}
+
+
+.f_menu{
+    display: flex;
+    margin-bottom: 20px;
+}
+/* .f_menu li{} */
+.f_menu li a::after{
+    content: " | ";
+    /* border: 1px solid #ece2e2; */
+    margin: 0 5px;
+    color: #ece2e2;
+}
+.f_menu li:last-child a::after{display: none;}
+
+    
+.f_menu li a{
+    color: #ece2e2;
+    font-weight: bold;  
+}
+
+
+
+
+.f_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.f_info li{
+    color: #ece2e2;    
+    /* border: 1px solid salmon; */
+}
+/* 줄바뀜이안되는 이유?????? */
+
+
+
+
+
 
 
 

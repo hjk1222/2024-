@@ -46,7 +46,7 @@ $(".best_list").slick({
     autoplay:true,
     autoplaySpeed:2000,
     pauseOnHover:true,
-    arrows:true,
+    arrows:true, 
     dots:true,
     swipe:true,
     centerMode: true, //중앙에 슬라이드가 보여지는 모드 ▶기본값 false

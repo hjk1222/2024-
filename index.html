@@ -5,7 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OroraFlower</title>
-    <link rel="shortcut icon" href="images/favicon.x-icon">
+    <link rel="shortcut icon" href="img/favi/favicon.ico">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon -->
+
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -89,12 +109,13 @@
             <!-- 슬라이드 이미지 영역 -->
             <div class="view">
                 <ul class="move">
-                    <li><a href="#"><img src="img/img_slide(1).png" alt="slide1"></a></li>
-                    <li><a href="#"><img src="img/img_slide(2).png" alt="slide2"></a></li>
+                    <li><a href="#"><img src="img/slide-1.jpg" alt="slide1"></a></li>
+                    <li><a href="#"><img src="img/slide-2.jpg" alt="slide2"></a></li>
                     <li><a href="#"><img src="img/img_slide(3).png" alt="slide3"></a></li>
                     <li><a href="#"><img src="img/img_slide(4).png" alt="slide4"></a></li>
                 </ul>
             </div> <!-- view -->
+            
             <div class="control">
                 <button class="prev">prev</button>
                 <button class="next">next</button>
@@ -103,19 +124,20 @@
             <!-- 인트로 영역 -->
             <ul class="intro clear_fix">
                 <li>
-                    <a href="#"><img src="img/intro1.png" alt="intro"></a>
+                    <!-- 사진: 284*284 -->
+                    <a href="#"><img src="img/intro-1.png" alt="intro"></a>
                     <p>기념일</p>
                 </li>
                 <li>
-                    <a href="#"><img src="img/intro.png" alt="intro"></a>
+                    <a href="#"><img src="img/intro-2.png" alt="intro"></a>
                     <p>웨딩부케</p>
                 </li>
                 <li>
-                    <a href="#"><img src="img/intro.png" alt="intro"></a>
+                    <a href="#"><img src="img/intro-3.png" alt="intro"></a>
                     <p>주문제작</p>
                 </li>
                 <li>
-                    <a href="#"><img src="img/intro.png" alt="intro"></a>
+                    <a href="#"><img src="img/intro-4.png" alt="intro"></a>
                     <p>플라워클래스</p>
                 </li>
             </ul>
@@ -164,7 +186,8 @@
                         </div>
 
                         <div class="r_massage">
-                            <textarea name="message" id="message" placeholder="message here!" cols="50" rows="8"></textarea>
+                            <textarea name="message" id="message" placeholder="message here!" cols="50"
+                                rows="8"></textarea>
                         </div>
 
                         <div class="r_send_btn">
@@ -189,27 +212,60 @@
                         <li><a href="#"><img src="img/photo7.jpg" alt="photo7"></a></li>
                         <li><a href="#"><img src="img/photo8.jpg" alt="photo8"></a></li>
                         <li><a href="#"><img src="img/photo9.jpg" alt="photo9"></a></li>
-                    </ul>
-                </div>
-
-
-
+                    </ul> <!-- best_list -->
+                </div> <!-- cont1 -->
             </div><!-- photo -->
 
-            <!-- 안내사항영역 -->
-            <div class="announcement clear_fix">
-                <p class="title">Announce</p>
-                <ul class="announce">
+            <!-- way t ocome(지도)영역 -->
+            <div class="map clear_fix">
+                <p class="title">Way to come</p>                
+                <p align="middle">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.309718626022!2d127.10258751023925!3d37.35884777197668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b59ca1b187e77%3A0x33970fbde11630d5!2z6rK96riw64-EIOyEseuCqOyLnCDrtoTri7nqtawg7KCV7J6Q7J2866GcIDk1!5e0!3m2!1sko!2skr!4v1705304628072!5m2!1sko!2skr"
+                        width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+                
+                
+                <!-- [취소] -->
+                <!--   <ul class="announce">
                     <li><a href="#"><img src="" alt=""></a></li>
                     <li><a href="#"></a></li>
-                </ul>
-            </div> <!-- announcement -->
-        </section> <!-- contents -->
+                </ul> -->
+            </div> <!-- waytocome 영역 -->
+        </section> <!-- contents 영역 -->
 
 
 
         <footer id="footer" class="clear_fix">
+            <div class="foot_inner">
 
+                <div class="f_sns">
+                    <ul class="f_sns">
+                        <li><a href=""><img src="img/f_naver.png" alt="naver"></a></li>
+                        <li><a href=""><img src="img/f_insta.png" alt="instagram"></a></li>
+                        <li><a href=""><img src="img/f_twitt.png" alt="twitter"></a></li>
+                        <li><a href=""><img src="img/f_amazon.png" alt="amazon"></a></li>
+                    </ul> <!-- sns -->
+                </div> <!-- f_sns -->
+
+
+                <ul class="f_menu">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">사업자등록정보확인</a></li>
+                    <li><a href="#">통신판매업</a></li>
+                </ul> <!-- f_menu -->
+
+                <ul class="f_info">
+                    <li>대표이사 : 홍길동</li>
+                    <li>상호명 : ORORA FLOWER</li>
+                    <li>이메일 : orora@naver.com</li>
+                    <li>주소: 경기도 성남시 분당구 정자일로 95, ORORA 1784, 13561</li>
+                    <li>대표전화 : 1588-7777</li>
+                    <li>Copyright &copy; ORORA FLOWER. All Rights Reserved.</li>
+                </ul> <!-- f_info -->
+            </div> <!-- foot_inner -->
         </footer> <!-- footer -->
     </div> <!-- wrap -->
 
